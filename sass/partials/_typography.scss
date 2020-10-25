@@ -1,0 +1,23 @@
+nav a {
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.navbar-brand {
+  font-size: 36px;
+}
+
+.nav-link {
+  font-family: "Archivo Narrow", sans-serif;
+}
+
+h1 {
+  color: $headings-color;
+  font-size: $h1-font-size;
+  padding-top: 50px;
+}
+
+h1,
+.navbar-brand {
+  font-family: $font-family-base;
+}

@@ -1,0 +1,33 @@
+.card {
+  border-radius: $card-border-radius;
+  border: none;
+  margin-bottom: $card-spacer-x;
+  background-color: $primary;
+  margin: 20px;
+  padding: 150px;
+}
+
+.bg-dark {
+  background-color: $secondary;
+  border: 3px solid $white;
+}
+.wrapper {
+  width: 100%;
+  padding: 55px;
+  padding-bottom: 250px;
+
+  &__shadow {
+    box-shadow: $box-shadow-sm;
+  }
+
+  &__special-border {
+    border: solid $secondary;
+    background-color: $white;
+  }
+}
+
+@media (max-width: 576px) {
+  .wrapper {
+    padding: 10px;
+  }
+}

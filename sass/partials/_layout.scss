@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: $body-bg;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.footer {
+  font-family: $font-family-base;
+  display: flex;
+  flex-shrink: 0;
+  justify-content: space-between;
+  background-color: $primary;
+  margin-top: 32px;
+  font-size: $font-size-sm;
+  color: $footer-text;
+  padding: 25px;
+
+  &__item1 {
+    padding-left: 45px;
+  }
+  &__item2 {
+    padding-right: 45px;
+  }
+}
